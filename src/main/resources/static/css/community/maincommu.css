@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*header*/
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  line-height: 60px;
+  background-color: lightslategray;
+}
+.wrapper li a:hover{
+  color: blue;
+}
+
+.wrapper ul, .wrapper li, .wrapper-title, 
+.wrapper-title h1, .wrapper-info-1, .wrapper-info-2
+{
+  display: inline;
+  
+}
+
+.wrapper-title h1 {
+  font-family:'Merienda', cursive; /*font 가져옴*/
+  font-weight:700;
+  font-size: 1.7em; /* 얘 크가가 커질수록 영화,커뮤니티랑 로그민,회원가입, 검색이랑 라인이 안맞아짐 어케해야할까?*/
+  color:#fff; 
+  text-shadow:0 -1px 0 #222;  /* 그림자 색 */
+  padding: 20px;
+}
+
+.wrapper-info-1 li a, .wrapper-info-2 li a{
+  font-size:1.1em;
+  color:#fff; 
+  font-weight:600;  /* 글자 굵기 */
+  padding : 10px 30px;
+}
+.wrapper-title{
+  margin-left: -100px;
+}
+.wrapper-info-2{
+  margin-right: -100px;
+}
+
+#btn_cafe_search {
+  float: right;
+  margin-right: 20px;
+}
+
+.write_cmu {
+  display: block;
+  margin-top: 40px; 
+  margin-left: 20px;
+}
+
+.link_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: black; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+.link_btn:hover {
+  background-color: #adb49c;
+}
+
+body{
+  background-image: url(https://www.mexicoescultura.com/galerias/actividades/principal/land.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #f0f0f0;
+}

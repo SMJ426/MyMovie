@@ -1,0 +1,19 @@
+spring:
+  security:
+    user:
+      name: user
+      password: 1234
+    debug: true
+
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/movies?serverTimezone=Asia/Seoul
+      username: root
+      password: 990531
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
+    show-sql: true
+
